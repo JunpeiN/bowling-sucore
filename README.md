@@ -1,10 +1,9 @@
 ## usersテーブル
 
-| Column | Type    | Options     |
-| ------ | ------- | ----------- |
-| user   | string  | null: false |
-| group  | string  | null: false |
-
+| Column   | Type    | Options     |
+| -------- | ------- | ----------- |
+| nickname | string  | null: false |
+| password | string  | null: false |
 
 ### Association
 - has_many :sucores
