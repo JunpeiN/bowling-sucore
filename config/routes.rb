@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'sucores/index'
-  root "sucores#index"
+  root "sucores#new"
+  resources :users, only: [:edit, :update]
+  resources :sucores
 end

@@ -1,3 +1,5 @@
+
+/*トップ画面のcss*/
 .wrapper {
 }
 .side-bar {
@@ -61,5 +63,114 @@
   font-size: large;
   padding: 5px;
   display: flex;
-  
+}
+
+/*入力画面のcss*/
+/*非同期通信で表示部分*/
+.head-game{
+  border: solid 1px red;
+  margin: 20px;
+}
+
+.head-frame{
+  width: 630px;
+  margin: 20px;
+}
+
+.sucore-table{
+  height:80px;
+  border-color: #808080;
+}
+.table-frame{
+  border-style: groove;
+  height:20px;
+  width: 60px;
+  background-color:blueviolet;
+  text-align: center;
+}
+
+.input-throw{
+  border-style: groove;
+  height:20px;
+  width: 90px;
+  text-align: center;
+}
+
+.head-sucore-total{
+  border-style: groove;
+  height:20px;
+  width: 60px;
+  text-align: center;
+}
+
+/*実際に入力する場所css*/
+
+.input-main{
+display: flex;
+background-color: rgb(208, 237, 238);
+height: 100vh;
+wei
+}
+
+/*ピラミッド*/
+
+.piramid{
+  margin: 0 0 0 50px;
+}
+
+.pyramid_parent {
+  text-align: center;         /* 子要素を左右中央揃えにする */
+}
+
+.pyramid_box {
+  width: 60px;               /* 幅指定 */
+  display:  inline-block;     /* インラインブロック要素にする */
+  margin-bottom: 10px;         /* 要素同士の隙間調整 */
+  padding: 10px;              /* 余白指定 */
+}
+
+/*ピンボタン*/
+.btn-circle-border-simple {
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.btn-circle-border-simple:hover {
+  background: #b3e1ff;
+}
+/*操作ボタン*/
+.menu{
+  margin: 150px 80px 0 250px;
+}
+
+.menu-button{
+  margin: 10px;
+}
+
+.btn-gradient-3d-simple {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #5e7fca;
+}
+
+.btn-gradient-3d-simple:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
 }
